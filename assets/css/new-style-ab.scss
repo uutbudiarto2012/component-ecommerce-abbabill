@@ -5,6 +5,129 @@ $color-primary: #2ebdff;
 $color-primary-light: #9fe1ff;
 
 
+.new-header-combo-x-box {
+    background-image: linear-gradient($color-primary-light, #FFF);
+    height: 50vh;
+    padding: 20px 0;
+
+    @media (max-width:576px) {
+        height: 27vh;
+    }
+
+    @media (max-width:768px) {
+        height: 30vh;
+    }
+
+    @media (max-width:992px) {
+        height: 40vh;
+    }
+
+    .container-box {
+        height: 100%;
+
+        .new-header-combo-x {
+            gap: 10px;
+            display: flex;
+            height: 100%;
+
+            .header-left-x {
+                flex: 1;
+                border-radius: 8px;
+                overflow: hidden;
+
+                &.newHeroAbSlider {
+                    width: 100%;
+                    height: 100%;
+
+                    .swiper-wrapper {
+                        height: 100%;
+
+                        .swiper-slide {
+                            .hero-slider-link {
+                                display: block;
+                                background-color: red;
+                                height: 100%;
+
+                                .img-hero-slider {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    // object-position: center;
+                                    background-color: red;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .swiper-button-next.next-btn-hero-lg {
+                    background-color: #EEE;
+                    box-shadow: 0 0 4px rgba(0, 0, 0, .05);
+                    border-radius: 50%;
+                    height: 35px;
+                    width: 35px;
+
+                    &::after {
+                        color: #000;
+                        font-size: 15px;
+                    }
+                }
+
+                .swiper-button-prev.prev-btn-hero-lg {
+                    background-color: #EEE;
+                    box-shadow: 0 0 4px rgba(0, 0, 0, .05);
+                    border-radius: 50%;
+                    height: 35px;
+                    width: 35px;
+
+                    &::after {
+                        color: #000;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .header-right-x {
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .header-right-x-top {
+                    width: 100%;
+                    flex: 1;
+                    border-radius: 8px;
+                    overflow: hidden;
+
+                }
+
+
+                .header-right-x-bottom {
+                    width: 100%;
+                    flex: 1;
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+
+                .hero-slider-link-right {
+                    height: 100%;
+
+                    .img-hero-slider-right {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
 .new-card-product-box {
     position: relative;
     box-shadow: 0 0 4px rgba(0, 0, 0, .2);

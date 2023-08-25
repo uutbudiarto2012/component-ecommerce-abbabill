@@ -15,6 +15,76 @@
 
 <body>
 
+    <div class="new-header-combo-x-box">
+        <div class="container container-box">
+            <div class="new-header-combo-x">
+                <div class="swiper header-left-x newHeroAbSlider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a class="hero-slider-link" href="javascript:void(0)">
+                                <img class="img-hero-slider" src="/assets/images/sliders/1.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="hero-slider-link" href="javascript:void(0)">
+                                <img class="img-hero-slider" src="/assets/images/sliders/2.png" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="hero-slider-link" href="javascript:void(0)">
+                                <img class="img-hero-slider" src="/assets/images/sliders/3.png" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next next-btn-hero-lg"></div>
+                    <div class="swiper-button-prev prev-btn-hero-lg"></div>
+                </div>
+                <div class="header-right-x d-none d-md-flex">
+                    <div class="swiper header-right-x-top newHeroRightTopSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="hero-slider-link-right" href="javascript:void(0)">
+                                    <img class="img-hero-slider-right" src="/assets/images/sliders/small/1.png"
+                                        alt="image">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="hero-slider-link-right" href="javascript:void(0)">
+                                    <img class="img-hero-slider-right" src="/assets/images/sliders/small/2.png"
+                                        alt="image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper header-right-x-bottom newHeroRighBottomtSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="hero-slider-link-right" href="javascript:void(0)">
+                                    <img class="img-hero-slider-right" src="/assets/images/sliders/small/3.png"
+                                        alt="image">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="hero-slider-link-right" href="javascript:void(0)">
+                                    <img class="img-hero-slider-right" src="/assets/images/sliders/small/4.png"
+                                        alt="image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="v-2-home-category-top">
+                <div class="v2-new-card-category">
+                    <div class="v2-card-category-image">
+                        <img src="/assets/" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
     <!-- INI STORY -->
     <div class="container py-5">
         <!-- title jangan d pakai cuma keterangan doang -->
@@ -1687,6 +1757,47 @@ https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js
                     slidesPerView: 10,
                     spaceBetween: 10,
                 },
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".newHeroAbSlider", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            speed: 1000,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".newHeroRightTopSlider", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            speed: 700,
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+                delay: 1300,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".newHeroRighBottomtSlider", {
+            speed: 700,
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+                delay: 1200,
+                disableOnInteraction: false,
             },
         });
     </script>
