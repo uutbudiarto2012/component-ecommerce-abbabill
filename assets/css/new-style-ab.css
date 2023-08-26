@@ -1,12 +1,12 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 .new-header-combo-x-box {
   background-image: linear-gradient(#9fe1ff, #FFF);
-  height: 20vh;
+  height: 23vh;
   padding: 20px 0;
 }
 @media (min-width: 576px) {
   .new-header-combo-x-box {
-    height: 20vh;
+    height: 23vh;
   }
 }
 @media (min-width: 768px) {
