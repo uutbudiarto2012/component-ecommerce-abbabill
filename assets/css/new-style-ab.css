@@ -1,22 +1,27 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 .new-header-combo-x-box {
   background-image: linear-gradient(#9fe1ff, #FFF);
-  height: 50vh;
+  height: 20vh;
   padding: 20px 0;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .new-header-combo-x-box {
-    height: 27vh;
+    height: 20vh;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .new-header-combo-x-box {
     height: 30vh;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .new-header-combo-x-box {
     height: 40vh;
+  }
+}
+@media (min-width: 1200px) {
+  .new-header-combo-x-box {
+    height: 33vh;
   }
 }
 .new-header-combo-x-box .container-box {
