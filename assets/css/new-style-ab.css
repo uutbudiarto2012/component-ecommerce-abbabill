@@ -16,12 +16,12 @@
 }
 @media (min-width: 992px) {
   .new-header-combo-x-box {
-    height: 40vh;
+    height: 28vh;
   }
 }
 @media (min-width: 1200px) {
   .new-header-combo-x-box {
-    height: 33vh;
+    height: 28vh;
   }
 }
 .new-header-combo-x-box .container-box {
