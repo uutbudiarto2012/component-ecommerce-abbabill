@@ -524,6 +524,27 @@ body.has_bottom_menu {
 
 }
 
+.btn-toggle-play-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+    .btn-toggle-play {
+        height: 45px;
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        font-size: 32px;
+        color: #FFF;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
 
 
 

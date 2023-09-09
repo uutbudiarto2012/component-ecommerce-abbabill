@@ -17,7 +17,7 @@
 
     <div class="">
         <div class="video_story_wrapper_v2">
-            <video class="video_player" loop autoplay playsinline>
+            <video class="video_player" loop autoplay muted playsinline>
                 <source src="./assets/videos/4.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Your browser does not support the video tag.
@@ -34,6 +34,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="btn-toggle-play-wrapper">
+                    <button class="btn-toggle-play d-none">
+                        <i class="icon-play-stop bi bi-play-fill"></i>
+                    </button>
+                </div>
                 <div class="bottom-content">
                     <div class="action-wrapper">
                         <div class="action-btn-box">
@@ -44,7 +49,6 @@
                                 <i class="bi bi-share-fill"></i>
                             </a>
                             <a href="javascript:void(0)" class="action-btn-item btnSoundStory">
-                                <!-- <i class="bi bi-volume-up-fill"></i> -->
                                 <i class="bi bi-volume-mute-fill"></i>
                             </a>
                         </div>
@@ -211,6 +215,22 @@ https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js
         btnSoundStory.addEventListener("click", function () {
             iconPlay.classList.toggle("bi-volume-up-fill")
             iconPlay.classList.toggle("bi-volume-mute-fill")
+        })
+    </script>
+
+    <script>
+        const btntoggleplaywrapper = document.querySelector(".btn-toggle-play-wrapper")
+        btntoggleplaywrapper.addEventListener("click", function () {
+            const video_player = document.querySelector(".video_player")
+            const btnTogglePlay = btntoggleplaywrapper.querySelector(".btn-toggle-play")
+            if (video_player.paused) {
+                video_player.play();
+                btnTogglePlay.classList.add("d-none")
+            } else {
+                video_player.pause();
+                btnTogglePlay.classList.remove("d-none")
+
+            }
         })
     </script>
 
