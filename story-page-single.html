@@ -43,6 +43,10 @@
                             <a href="javascript:void(0)" class="action-btn-item">
                                 <i class="bi bi-share-fill"></i>
                             </a>
+                            <a href="javascript:void(0)" class="action-btn-item btnSoundStory">
+                                <!-- <i class="bi bi-volume-up-fill"></i> -->
+                                <i class="bi bi-volume-mute-fill"></i>
+                            </a>
                         </div>
                         <div>
                             <a href="javascript:void(0)" onclick="handleOpenProduct()" class="btn-product-trigger">
@@ -199,6 +203,15 @@ https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js
                 productWrapperStory.classList.remove("show")
             }
         }
+    </script>
+
+    <script>
+        const btnSoundStory = document.querySelector('.btnSoundStory')
+        const iconPlay = btnSoundStory.querySelector('i')
+        btnSoundStory.addEventListener("click", function () {
+            iconPlay.classList.toggle("bi-volume-up-fill")
+            iconPlay.classList.toggle("bi-volume-mute-fill")
+        })
     </script>
 
 </body>
