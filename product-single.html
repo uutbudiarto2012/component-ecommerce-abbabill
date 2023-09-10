@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Custom Component</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="
+        https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css
+        " rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/new-style-ab.css">
+    <link rel="stylesheet" href="/assets/css/tw-abbabill-v2.css">
+</head>
+
+<body>
+    <div class="tw-container tw-mx-auto">
+        <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-12 tw-gap-4 md:tw-py-5">
+
+            <!-- MEDIA IMAGE VIDEO -->
+            <div class="tw-col-span-1 md:tw-col-span-6 lg:tw-col-span-4">
+                <!-- INI UNTUK DESKTOP -->
+                <div class="tw-sticky md:tw-top-[90px] tw-hidden md:tw-block">
+                    <div class="mediaProductView tw-bg-slate-100 tw-aspect-square tw-rounded-lg tw-overflow-hidden">
+                        <!-- <img class="tw-w-full tw-h-full tw-object-contain" src="/assets/images/sliders/1.png" alt="product"> -->
+                        <div class="tw-relative tw-h-full tw-w-full">
+                            <video autoplay muted src="/assets/videos/2.mp4"
+                                class="thumMediaItem tw-aspect-square tw-object-contain tw-box-border">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="swiper swiperMediaThumbnail tw-mt-5">
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide tw-rounded-lg tw-overflow-hidden">
+                                <a class="thumbnailItemLink" href="javascript:void(0)">
+                                    <video src="/assets/videos/2.mp4"
+                                        class="thumMediaItem tw-aspect-square tw-object-cover tw-box-border">
+                                    </video>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tw-aspect-square tw-rounded-lg tw-overflow-hidden">
+                                <a class="thumbnailItemLink tw-h-full tw-w-full" href="javascript:void(0)">
+                                    <img class="thumMediaItem tw-w-full tw-aspect-square"
+                                        src="/assets/images/sliders/1.png" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide tw-aspect-square tw-rounded-lg tw-overflow-hidden">
+                                <a class="thumbnailItemLink" href="javascript:void(0)">
+                                    <img class="thumMediaItem tw-w-full tw-aspect-square"
+                                        src="/assets/images/product/2.png" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide tw-aspect-square tw-rounded-lg tw-overflow-hidden">
+                                <a class="thumbnailItemLink" href="javascript:void(0)">
+                                    <img class="thumMediaItem tw-w-full tw-aspect-square"
+                                        src="/assets/images/product/3.png" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide tw-aspect-square tw-rounded-lg tw-overflow-hidden">
+                                <a class="thumbnailItemLink" href="javascript:void(0)">
+                                    <img class="thumMediaItem tw-w-full tw-aspect-square"
+                                        src="/assets/images/product/4.png" />
+                                </a>
+                            </div>
+                            <div class="swiper-slide tw-aspect-square tw-rounded-lg tw-overflow-hidden">
+                                <a class="thumbnailItemLink" href="javascript:void(0)">
+                                    <img class="thumMediaItem tw-w-full tw-aspect-square"
+                                        src="/assets/images/product/5.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- INI UNTUK DESKTOP -->
+                <!-- INI UNTUK MOBILE -->
+                <div class="swiper mobileSwiperMedia md:tw-top-12 tw-block md:tw-hidden">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide tw-aspect-square">
+                            <div class="tw-relative tw-h-full tw-w-full">
+                                <video autoplay muted src="/assets/videos/2.mp4"
+                                    class="thumMediaItem tw-aspect-square tw-object-contain tw-box-border">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="swiper-slide tw-aspect-square">
+                            <div class="tw-relative tw-h-full tw-w-full">
+                                <a download href="/assets/images/product/1.png"
+                                    class="tw-bg-slate-800 tw-h-8 tw-w-8 tw-rounded-full tw-text-white tw-flex tw-items-center tw-justify-center tw-bottom-3 tw-right-3 tw-absolute tw-z-10">
+                                    <i class="bi bi-cloud-download"></i>
+                                </a>
+                                <img class="tw-w-full tw-h-full tw-object-contain" src="/assets/images/product/1.png"
+                                    alt="product">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tw-aspect-square">
+                            <div class="tw-relative tw-h-full tw-w-full">
+                                <a download href="/assets/images/product/2.png"
+                                    class="tw-bg-slate-800 tw-h-8 tw-w-8 tw-rounded-full tw-text-white tw-flex tw-items-center tw-justify-center tw-bottom-3 tw-right-3 tw-absolute tw-z-10">
+                                    <i class="bi bi-cloud-download"></i>
+                                </a>
+                                <img class="tw-w-full tw-h-full tw-object-contain" src="/assets/images/product/2.png"
+                                    alt="product">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tw-aspect-square">
+                            <div class="tw-relative tw-h-full tw-w-full">
+                                <a download href="/assets/images/product/3.png"
+                                    class="tw-bg-slate-800 tw-h-8 tw-w-8 tw-rounded-full tw-text-white tw-flex tw-items-center tw-justify-center tw-bottom-3 tw-right-3 tw-absolute tw-z-10">
+                                    <i class="bi bi-cloud-download"></i>
+                                </a>
+                                <img class="tw-w-full tw-h-full tw-object-contain" src="/assets/images/product/3.png"
+                                    alt="product">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination custom-swiper-pagination"></div>
+                </div>
+                <!-- INI UNTUK MOBILE -->
+            </div>
+            <!-- MEDIA IMAGE VIDEO -->
+
+
+            <!-- CONTENT INFORMASI -->
+            <div class="tw-col-span-1 md:tw-col-span-6 mt-md-5 lg:tw-col-span-5 tw-text-slate-700 tw-px-2 md:tw-px-0">
+                <div>
+                    <h1 class="tw-text-3xl tw-font-bold">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate inventore
+                    </h1>
+                </div>
+                <div class="tw-flex tw-justify-between tw-items-center tw-border-y tw-py-4 tw-my-3">
+                    <div class="md:tw-flex tw-items-center tw-gap-x-2">
+                        <h2 class="tw-text-xl md:tw-text-2xl tw-font-bold">Rp 200.000</h2>
+                        <h3 class="tw-italic tw-text-sm tw-line-through tw-text-slate-400">Rp 400.000</h3>
+                    </div>
+                    <div class="tw-flex tw-items-center tw-gap-x-2">
+                        <div class="tw-flex tw-items-center tw-text-sm tw-gap-x-1">
+                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="tw-text-xs">
+                            999+ Terjual
+                        </div>
+                    </div>
+                </div>
+                <div class="tw-hidden md:tw-block">
+                    <h3 class="tw-mb-3 tw-font-semibold">Pilih Varian</h3>
+                    <div>
+                        <h4 class="tw-mb-3 tw-font-semibold tw-text-sm">WARNA</h4>
+                        <div class="tw-flex tw-gap-2 tw-flex-wrap">
+                            <!-- INI KALAU ACTIVE -->
+                            <button
+                                class="btnVarian1 tw-bg-cyan-400 tw-flex tw-items-center tw-gap-x-1 tw-text-white tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/1.png" alt="product">
+                                <span>Merah</span>
+                            </button>
+                            <!-- INI KALAU TIDAK ACTIVE -->
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/2.png" alt="product">
+                                <span>Kuning</span>
+                            </button>
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/3.png" alt="product">
+                                <span>Hijau</span>
+                            </button>
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/4.png" alt="product">
+                                <span>Biru</span>
+                            </button>
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/5.png" alt="product">
+                                <span>Merah</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tw-mt-4">
+                        <h4 class="tw-mb-3 tw-font-semibold tw-text-sm">UKURAN</h4>
+                        <div class="tw-flex tw-gap-2 tw-flex-wrap">
+                            <button
+                                class="btnVarian2 tw-bg-cyan-400 tw-text-white tw-text-sm tw-py-1 tw-px-3 tw-rounded-md">M</button>
+                            <button
+                                class="btnVarian2 tw-bg-slate-100 tw-py-2 tw-text-sm tw-px-3 tw-rounded-md">L</button>
+                            <button
+                                class="btnVarian2 tw-bg-slate-100 tw-py-2 tw-text-sm tw-px-3 tw-rounded-md">XL</button>
+                            <button
+                                class="btnVarian2 tw-bg-slate-100 tw-py-2 tw-text-sm tw-px-3 tw-rounded-md">XXL</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- INFO -->
+                <div class="tw-mt-6">
+                    <ul class="tw-flex" id="pills-tab" role="tablist">
+                        <li role="presentation">
+                            <button class="tab-trigger-info-v2 active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Deskripsi Produk</button>
+                        </li>
+                        <li role="presentation">
+                            <button class="tab-trigger-info-v2" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Review</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active  tw-p-2" id="pills-home" role="tabpanel" tabindex="0">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis quis nobis
+                            reprehenderit quaerat beatae voluptatem impedit inventore, atque tempora assumenda?
+                            Asperiores iure doloremque obcaecati laborum aliquam aspernatur tenetur aut nihil dolores,
+                            voluptate fuga. Vero obcaecati commodi cupiditate laudantium beatae provident quas, quidem
+                            voluptate aperiam ipsam repudiandae asperiores, necessitatibus molestiae. Rem, placeat qui
+                            asperiores libero amet nostrum deserunt architecto iusto. Commodi, assumenda. Voluptatem
+                            fuga magni reiciendis debitis quisquam sapiente ullam amet earum? Alias eos eaque deserunt!
+                            Nemo veritatis soluta illo. Quaerat ullam minus reprehenderit beatae accusantium deleniti
+                            illum, vel nostrum soluta, pariatur, amet molestiae? Eaque quos at repudiandae, mollitia
+                            aliquam blanditiis.
+                        </div>
+                        <div class="tab-pane fade  tw-p-2" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+
+                            <div class="tw-border-b tw-py-2">
+                                <div class="tw-flex tw-gap-x-2 tw-items-center">
+                                    <img class="tw-w-10 tw-h-10" src="/assets/images/product/1.png" alt="ir">
+                                    <div class="tw-flex-1">
+                                        <span class="tw-text-sm">N******a</span>
+                                        <div class="tw-flex tw-items-center tw-gap-x-1 tw-text-xs">
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="tw-text-xs">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, pariatur?
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="tw-border-b tw-py-2">
+                                <div class="tw-flex tw-gap-x-2 tw-items-center">
+                                    <img class="tw-w-10 tw-h-10" src="/assets/images/product/1.png" alt="ir">
+                                    <div class="tw-flex-1">
+                                        <span class="tw-text-sm">Nama usernya</span>
+                                        <div class="tw-flex tw-items-center tw-gap-x-1 tw-text-xs">
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-slate-300"></i>
+                                            <i class="bi bi-star-fill tw-text-slate-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="tw-text-xs">
+                                        Produknya bagus tapi pengiriman lambat saya kasih bintang 3 dulu deh!
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="tw-border-b tw-py-2">
+                                <div class="tw-flex tw-gap-x-2 tw-items-center">
+                                    <img class="tw-w-10 tw-h-10" src="/assets/images/product/1.png" alt="ir">
+                                    <div class="tw-flex-1">
+                                        <span class="tw-text-sm">Nama usernya</span>
+                                        <div class="tw-flex tw-items-center tw-gap-x-1 tw-text-xs">
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-orange-300"></i>
+                                            <i class="bi bi-star-fill tw-text-slate-300"></i>
+                                            <i class="bi bi-star-fill tw-text-slate-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="tw-text-xs">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ducimus
+                                        quae qui accusamus corporis, neque dolorum soluta illo sed aperiam.
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CONTENT INFORMASI -->
+
+            <div class="tw-hidden lg:tw-block tw-col-span-1 md:tw-col-span-3  tw-px-2 md:tw-px-0">
+                <div class="tw-sticky tw-top-[90px] tw-border tw-p-3 tw-rounded-lg tw-bg-white">
+                    <h3 class="tw-font-semibold">Atur jumlah dan catatan</h3>
+                    <div class="tw-mt-4 tw-flex tw-items-center tw-gap-x-1">
+                        <img class="tw-w-8 tw-h-8 tw-rounded-lg" src="/assets/images/product/1.png" alt="pilihan">
+                        <div>
+                            <span class="varianSelected1">Merah</span>
+                            <span class="varianSelected2">XL</span>
+                        </div>
+                    </div>
+                    <div class="tw-flex tw-items-center tw-mt-4 tw-gap-x-3">
+                        <div class="tw-w-32 tw-border tw-p-1 tw-rounded-md tw-flex tw-items-center">
+                            <button id="decItem" class="tw-bg-cyan-400 tw-text-white tw-rounded-md tw-w-8 tw-h-8">
+                                <i class="bi bi-dash"></i>
+                            </button>
+                            <input value="1" id="countItem" class="tw-flex-1 tw-w-full tw-outline-none tw-text-center"
+                                type="number">
+                            <button id="incItem" class="tw-bg-cyan-400 tw-text-white tw-rounded-md tw-w-8 tw-h-8">
+                                <i class="bi bi-plus"></i>
+                            </button>
+                        </div>
+                        <div class="tw-flex-1 tw-flex">
+                            <span class="tw-text-green-500 tw-font-semibold">Stok 2</span>
+                        </div>
+                    </div>
+                    <div class="tw-mt-4">
+                        <div class="tw-flex tw-gap-x-2">
+                            <button class="tw-bg-cyan-400 p-2 tw-rounded-md tw-w-32 tw-text-white">BELI</button>
+                            <button
+                                class="p-2 tw-rounded-md tw-border-2 tw-border-cyan-400 tw-text-cyan-400 tw-w-32">KERANJANG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tw-sticky tw-bottom-0 tw-bg-white tw-max-w-md tw-mx-auto md:tw-hidden tw-z-20">
+        <div id="infoVarianMobile" class="tw-hidden tw-shadow-lg">
+            <div class="tw-p-4 tw-border-t tw-rounded-t-xl">
+                <div class="tw-flex tw-justify-between tw-items-center tw-mb-4">
+                    <h3 class="tw-font-semibold">Pilih Varian</h3>
+                    <button onclick="cloneInfoVarian()">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </div>
+                <div>
+                    <div class="tw-flex tw-items-center tw-gap-x-2 tw-mb-5">
+                        <img id="imageVarianSelected" class="tw-w-24 tw-h-24 tw-rounded-lg"
+                            src="/assets/images/product/1.png" alt="p">
+                        <div>
+                            <div>
+                                <span id="varianSelectedM1"
+                                    class="tw-bg-black tw-text-white tw-text-[10px] p-1 tw-rounded-md">MERAH</span>
+                                <span id="varianSelectedM2"
+                                    class="tw-bg-black tw-text-white tw-text-[10px] p-1 tw-rounded-md">XL</span>
+                            </div>
+
+                            <div>
+                                <div class="tw-font-semibold tw-text-xl">Rp 200.000</div>
+                                <div class="tw-flex tw-items-center tw-gap-x-1">
+                                    <div class="tw-bg-red-200 tw-text-red-500 tw-text-xs tw-p-1 tw-rounded-md">50%</div>
+                                    <span class="tw-text-xs tw-text-slate-400 tw-line-through">Rp 400.000</span>
+                                </div>
+                            </div>
+                            <div class="tw-text-sm tw-font-semibold">
+                                Stok 2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h4 class="tw-mb-3 tw-font-semibold tw-text-sm">WARNA</h4>
+                        <div class="tw-flex tw-gap-2 tw-flex-wrap">
+                            <!-- INI KALAU ACTIVE -->
+                            <button
+                                class="btnVarian1 tw-bg-cyan-400 tw-flex tw-items-center tw-gap-x-1 tw-text-white tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/1.png" alt="product">
+                                <span>Merah</span>
+                            </button>
+                            <!-- INI KALAU TIDAK ACTIVE -->
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/2.png" alt="product">
+                                <span>Kuning</span>
+                            </button>
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/3.png" alt="product">
+                                <span>Hijau</span>
+                            </button>
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/4.png" alt="product">
+                                <span>Biru</span>
+                            </button>
+                            <button
+                                class="btnVarian1 tw-bg-slate-100 tw-flex tw-items-center tw-gap-x-1 tw-slate-700 tw-text-sm tw-p-2 tw-rounded-md">
+                                <img class="tw-w-6 tw-h-6 tw-object-cover tw-rounded-md"
+                                    src="/assets/images/product/5.png" alt="product">
+                                <span>Merah</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tw-mt-4">
+                        <h4 class="tw-mb-3 tw-font-semibold tw-text-sm">UKURAN</h4>
+                        <div class="tw-flex tw-gap-2 tw-flex-wrap">
+                            <button
+                                class="btnVarian2 tw-bg-cyan-400 tw-text-white tw-text-sm tw-py-1 tw-px-3 tw-rounded-md">M</button>
+                            <button
+                                class="btnVarian2 tw-bg-slate-100 tw-py-2 tw-text-sm tw-px-3 tw-rounded-md">L</button>
+                            <button
+                                class="btnVarian2 tw-bg-slate-100 tw-py-2 tw-text-sm tw-px-3 tw-rounded-md">XL</button>
+                            <button
+                                class="btnVarian2 tw-bg-slate-100 tw-py-2 tw-text-sm tw-px-3 tw-rounded-md">XXL</button>
+                        </div>
+                    </div>
+
+                    <div class="tw-py-6 tw-mt-4 tw-border-t">
+                        <div class="tw-w-32 tw-border tw-p-1 tw-rounded-md tw-flex tw-items-center">
+                            <button id="decItem" class="tw-bg-cyan-400 tw-text-white tw-rounded-md tw-w-8 tw-h-8">
+                                <i class="bi bi-dash"></i>
+                            </button>
+                            <input value="1" id="countItem" class="tw-flex-1 tw-w-full tw-outline-none tw-text-center"
+                                type="number">
+                            <button id="incItem" class="tw-bg-cyan-400 tw-text-white tw-rounded-md tw-w-8 tw-h-8">
+                                <i class="bi bi-plus"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tw-flex tw-gap-x-3 tw-relative tw-z-10 tw-p-2">
+                <button class="tw-flex-1 p-2 tw-rounded-md tw-bg-cyan-400 tw-text-white tw-font-semibold">Beli
+                    Langsung</button>
+                <button
+                    class="tw-flex-1 p-2 tw-rounded-md tw-text-cyan-400 tw-border-2 tw-border-cyan-400 tw-font-semibold">Masuk
+                    Keranjang</button>
+            </div>
+        </div>
+        <div id="btnTriggerOnly" class="tw-flex tw-gap-x-3 tw-relative tw-z-10 tw-p-2">
+            <button onclick="openMenuVarian()"
+                class="tw-flex-1 p-2 tw-rounded-md tw-bg-cyan-400 tw-text-white tw-font-semibold">Beli
+                Langsung</button>
+            <button onclick="openMenuVarian()"
+                class="tw-flex-1 p-2 tw-rounded-md tw-text-cyan-400 tw-border-2 tw-border-cyan-400 tw-font-semibold">Masuk
+                Keranjang</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js
+"></script>
+
+
+    <script>
+        const mediaSWT = new Swiper(".swiperMediaThumbnail", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 5,
+            freeMode: true,
+        });
+        const mediaSW = new Swiper(".swiperMediaProduct", {
+            thumbs: {
+                swiper: mediaSWT,
+            },
+        });
+    </script>
+
+    <script>
+        const thumbnailItemLink = document.querySelectorAll(".thumbnailItemLink")
+        const mediaProductView = document.querySelector(".mediaProductView")
+        const videoExt = ['webm', 'mkv', 'flv', 'mp4']
+        thumbnailItemLink.forEach(item => {
+            item.addEventListener("mouseenter", function () {
+                const imgThumb = item.querySelector('.thumMediaItem')
+                const srcThumb = imgThumb.getAttribute("src")
+                const extThumb = srcThumb.split(".").pop()
+                if (videoExt.includes(extThumb)) {
+                    mediaProductView.innerHTML = `
+                    <div class="tw-relative tw-h-full tw-w-full">
+                            <video autoplay muted src="${srcThumb}"
+                                class="thumMediaItem tw-aspect-square tw-object-contain tw-box-border">
+                            </video>
+                        </div>
+                    `
+                } else {
+                    mediaProductView.innerHTML = `
+                    <div class="tw-relative tw-h-full tw-w-full">
+                        <a download href="${srcThumb}"
+                                class="tw-bg-slate-800 tw-h-8 tw-w-8 tw-rounded-full tw-text-white tw-flex tw-items-center tw-justify-center tw-bottom-3 tw-left-3 tw-absolute tw-z-10">
+                                <i class="bi bi-cloud-download"></i>
+                            </a>
+                            <img class="tw-w-full tw-h-full tw-object-contain" src="${srcThumb}" alt="product">
+                        </div>
+                    `
+                }
+            })
+        });
+    </script>
+
+    <script>
+        var swiperM = new Swiper(".mobileSwiperMedia", {
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'fraction',
+            },
+        });
+    </script>
+
+    <script>
+        const imageVarianSelected = document.getElementById("imageVarianSelected")
+        function openMenuVarian() {
+            const infoVarianMobile = document.getElementById('infoVarianMobile')
+            const btnTriggerOnly = document.getElementById('btnTriggerOnly')
+            infoVarianMobile.classList.add("tw-block")
+            infoVarianMobile.classList.remove("tw-hidden")
+            btnTriggerOnly.classList.add("tw-hidden")
+            btnTriggerOnly.classList.remove("tw-flex")
+        }
+        function cloneInfoVarian() {
+            const infoVarianMobile = document.getElementById('infoVarianMobile')
+            const btnTriggerOnly = document.getElementById('btnTriggerOnly')
+            infoVarianMobile.classList.remove("tw-block")
+            infoVarianMobile.classList.add("tw-hidden")
+            btnTriggerOnly.classList.remove("tw-hidden")
+            btnTriggerOnly.classList.add("tw-flex")
+        }
+    </script>
+
+    <script>
+        // const mediaProductView = document.querySelector(".mediaProductView")
+        const btnVarian1 = document.querySelectorAll(".btnVarian1")
+        if (btnVarian1.length) {
+            btnVarian1.forEach(element => {
+                element.addEventListener("click", function () {
+                    btnVarian1.forEach(i => i.classList.remove("tw-bg-cyan-400"))
+                    btnVarian1.forEach(i => i.classList.add("tw-bg-slate-100"))
+                    btnVarian1.forEach(i => i.classList.remove("tw-text-white"))
+                    element.classList.add("tw-bg-cyan-400")
+                    element.classList.add("tw-text-white")
+                    const srcImage = element.querySelector("img").getAttribute("src")
+
+                    if (srcImage) {
+                        imageVarianSelected.setAttribute("src", srcImage)
+                        mediaProductView.innerHTML = `
+                    <div class="tw-relative tw-h-full tw-w-full">
+                        <a download href="${srcImage}"
+                                class="tw-bg-slate-800 tw-h-8 tw-w-8 tw-rounded-full tw-text-white tw-flex tw-items-center tw-justify-center tw-bottom-3 tw-left-3 tw-absolute tw-z-10">
+                                <i class="bi bi-cloud-download"></i>
+                            </a>
+                            <img class="tw-w-full tw-h-full tw-object-contain" src="${srcImage}" alt="product">
+                        </div>
+                    `
+                    }
+                })
+            });
+        }
+        const btnVarian2 = document.querySelectorAll(".btnVarian2")
+        if (btnVarian2.length) {
+            btnVarian2.forEach(element => {
+                element.addEventListener("click", function () {
+                    btnVarian2.forEach(i => i.classList.remove("tw-bg-cyan-400"))
+                    btnVarian2.forEach(i => i.classList.add("tw-bg-slate-100"))
+                    btnVarian2.forEach(i => i.classList.remove("tw-text-white"))
+                    element.classList.add("tw-bg-cyan-400")
+                    element.classList.add("tw-text-white")
+                })
+            });
+        }
+    </script>
+
+
+</body>
+
+
+
+</html>

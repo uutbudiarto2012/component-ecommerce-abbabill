@@ -5,6 +5,25 @@ $color-primary: #2ebdff;
 $color-primary-light: #9fe1ff;
 $color-dark: #2e393d;
 
+.custom-swiper-pagination {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #FFF;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.tab-trigger-info-v2 {
+    padding: 6px;
+    border-bottom: 2px solid #EEE;
+
+    &.active {
+        border-bottom: 2px solid $color-primary;
+        color: $color-primary;
+    }
+}
 
 .home-category-container-v2 {
     background-color: #FFF;
