@@ -1,4 +1,49 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.home-category-container-v2 {
+  background-color: #FFF;
+  padding: 20px 0;
+}
+.home-category-container-v2 .category-home-v2 .category-home-item {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-category-container-v2 .category-home-v2 .category-home-item .img-ctg-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 25%;
+  border: 1px solid #2ebdff;
+  overflow: hidden;
+  padding: 2px;
+}
+.home-category-container-v2 .category-home-v2 .category-home-item .img-ctg-container:hover img {
+  transform: scale(1.1);
+}
+.home-category-container-v2 .category-home-v2 .category-home-item .img-ctg-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25%;
+  transition: all ease-in-out 0.3s;
+}
+.home-category-container-v2 .category-home-v2 .category-home-item .text-ctg {
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+}
+@media (max-width: 567px) {
+  .home-category-container-v2 .category-home-v2 .category-home-item .img-ctg-container {
+    width: 50px;
+    height: 50px;
+  }
+  .home-category-container-v2 .category-home-v2 .category-home-item .text-ctg {
+    font-size: 9px;
+    margin-top: 4px;
+  }
+}
+
 .new-header-combo-x-box {
   background-image: linear-gradient(#9fe1ff, #FFF);
   height: 23vh;
